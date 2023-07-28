@@ -19,8 +19,8 @@ actor               |actor _id
 |country             |country_id            |  
 |customer            |customer_id           |  
 |film                |film_id               |  
-|film_actor          |film_actor_id         |  
-|film_category       |film_category_id      |  
+|film_actor          |actor_id,film_id      |  
+|film_category       |film_id,category_id   |  
 |inventory           |inventory_id          |  
 |language            |language_id           |  
 |payment             |payment_id            |  
