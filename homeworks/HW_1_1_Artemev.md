@@ -39,3 +39,5 @@ actor               |actor _id
 Для написания запроса используйте представление information_schema.table_constraints.  
 ![Screenshot 2023-07-28 191744](https://github.com/iv-art074/data_engineer/assets/87374285/f1bd7d8a-2f92-421c-bec1-b9a531a25bba)  
 
+ссылка на скрипт:  
+https://github.com/iv-art074/data_engineer/blob/main/homeworks/constrains.sql  
