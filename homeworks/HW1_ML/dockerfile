@@ -1,0 +1,8 @@
+FROM continuumio/miniconda3:latest
+
+RUN pip install mlflow&&pip install boto3&&pip install pymysql
+WORKDIR /app
+COPY . .   
+RUN chmod +x 1.sh
+
+CMD ["./1.sh"]
