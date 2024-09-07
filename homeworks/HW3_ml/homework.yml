@@ -1,0 +1,44 @@
+- name: ansible_homework
+  hosts: all
+  become: yes
+
+  vars:
+    packages:
+      - htop
+      - mc
+      - vim
+      - net-tools
+      - git
+      - tree
+
+  tasks:
+    - name: Ping servers
+      ping:
+    - name: Update packages 
+      package:
+        update_cache: yes
+    - name: Install packages 
+      package:
+        name: "{{packages}}"
+        state: latest
+    - name: Copy file
+      copy:
+        src: test.txt
+        dest: /home/ansible/test.txt
+        mode: 0777
+    - name: Create groups
+      group:
+        name: "{{item}}"
+        state: present
+      loop:
+        - devops_1
+        - test_1
+    - name: Create users
+      user:
+        name: "{{item.user_name}}"
+        shell: /bin/bash
+        groups: devops_1, test_1
+        home: "/home/{{item.home_dir}}"
+      with_items:
+        - {user_name: devops_1, home_dir: devops_1}
+        - {user_name: test_1, home_dir: test_1}

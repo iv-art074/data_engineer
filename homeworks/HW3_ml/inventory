@@ -1,0 +1,4 @@
+[all]
+
+virt_box01 ansible_host=192.168.100.45 ansible_user=ansible ansible_ssh_pass=Zse45thm ansible_connection=ssh 
+virt_box02 ansible_host=192.168.100.47 ansible_user=ansible ansible_ssh_pass=Zse45thm ansible_connection=ssh 
