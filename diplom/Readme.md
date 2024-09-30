@@ -22,6 +22,6 @@ Data Quality - опционально, будет большим преимущ�
 #### NDS ####  
 ![airflow - nds_airflow](https://github.com/user-attachments/assets/b76576a1-6ccb-43ea-9cec-495e9eadaaeb)  
 
-[Описание схемы](
+[Описание схемы](https://github.com/iv-art074/data_engineer/edit/main/diplom/data/nds_structure.md)  
 
 
