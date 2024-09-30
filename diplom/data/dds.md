@@ -48,4 +48,4 @@ invoice_id: уникальный идентификатор счета-факт�
 branch_id, city_id, customer_id, product_line_id, date_id, time_id, payment_id: ссылки на соответствующие таблицы измерений.  
 unit_price, quantity, tax_5_percent, total, cost_of_goods_sold, gross_margin_percentage, gross_income, rating: количественные показатели продаж.  
 
-[Назад]((https://github.com/iv-art074/data_engineer/edit/main/diplom/Readme.md)   
+[Назад](https://github.com/iv-art074/data_engineer/edit/main/diplom/Readme.md)   
