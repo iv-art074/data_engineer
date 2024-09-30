@@ -26,6 +26,8 @@ Data Quality - опционально, будет большим преимущ�
   
 ### II. Схема хранилища данных ###  
 
+[SQL структура](https://github.com/iv-art074/data_engineer/tree/main/diplom/dags/sql)  
+
 #### NDS ####  
 ![airflow - nds_airflow](https://github.com/user-attachments/assets/b76576a1-6ccb-43ea-9cec-495e9eadaaeb)  
 
