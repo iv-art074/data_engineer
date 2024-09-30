@@ -1,0 +1,1 @@
+docker cp /home/iv_art/airflow/data/sales1.csv airflow-airflow-worker-1:/home/airflow/sales.csv
