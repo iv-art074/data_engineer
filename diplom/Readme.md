@@ -24,4 +24,8 @@ Data Quality - опционально, будет большим преимущ�
 
 [Описание схемы](https://github.com/iv-art074/data_engineer/edit/main/diplom/data/nds_structure.md)  
 
+#### DDS ####  
+![airflow - dds_airflow](https://github.com/user-attachments/assets/8edc89a0-065d-4ff3-84b2-317d8f6d870d)  
+
+[Описание схемы]
 
