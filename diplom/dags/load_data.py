@@ -20,7 +20,7 @@ dag = DAG(
     'load_data_dag',
     default_args=default_args,
     description='Load data to DDS',
-    schedule_interval='0 2 * * *',  # Запуск каждый день в 2:00 ночи
+    schedule_interval='0 17 * * *',  # Запуск каждый день в 2:00 ночи
 )
 
 # Функция для подключения к базе данных
