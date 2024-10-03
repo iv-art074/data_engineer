@@ -94,5 +94,5 @@ CREATE TABLE IF NOT EXISTS load_status (
 );
 
 -- Индексы для оптимизации запросов к таблицам метаданных
-CREATE INDEX idx_load_history_dag_task ON load_history(dag_id, task_id);
-CREATE INDEX idx_load_status_load_id ON load_status(load_id);
+CREATE INDEX IF NOT EXISTS idx_load_history_dag_task ON load_history(dag_id, task_id);
+CREATE INDEX IF NOT EXISTS idx_load_status_load_id ON load_status(load_id);
